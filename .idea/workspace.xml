@@ -5,47 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93ef2c5f-960b-4541-84c0-5a20d473ea21" name="变更" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/src/main/java/game/ui/ScoreCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/game/ui/Sig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-23-12月-2022-08.30.27.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-23-12月-2022-08.31.24.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-23-12月-2022-08.32.44.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-23-12月-2022-08.34.01.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-23-12月-2022-08.34.59.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-23-12月-2022-08.36.34.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-23-12月-2022-08.37.10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-25-12月-2022-12.29.03.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-28-12月-2022-11.52.47.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-28-12月-2022-11.53.42.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/game/EtamaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/game/GameType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/game/componets/BossAnimationComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/game/componets/BossMoveComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/game/componets/BulletComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/game/componets/EtamaComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/game/componets/ReferMoveComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/text/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/bg/RollBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/bullet/etama_remi_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/bullet/etama_remu_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/bullet/etama_remu_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/bullet/pl00.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-18-12月-2022-20.25.34.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-18-12月-2022-20.46.26.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/BackGround.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/BackGround.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/CreatePrefabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/CreatePrefabs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/PlayerAnimationComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/componets/PlayerAnimationComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/Prefabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/Prefabs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/game/StgGameApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/StgGameApp.java" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/game/BackGround.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/game/CreatePrefabs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/game/Prefabs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/game/StgGameApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/bg/backgorund3.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/bg/backgorund3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/boss/enm_marisa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/boss/enm_reimu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/bullet/eff01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/bullet/etama.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/bullet/etama10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/bullet/etama11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/bullet/etama2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/bullet/etama3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/bullet/etama4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/bullet/etama5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/bullet/etama6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/bullet/etama7a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/bullet/etama7b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/bullet/etama8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/bullet/etama9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/enemy/enemy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/enemy/enemy1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/enemy/enemy2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/fulan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/player/marisa&amp;alice.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/player/remi&amp;sakuya.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/player/youmu&amp;yuyuko.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/remi.png" afterDir="false" />
->>>>>>> 4008043f247d32789fe520ba4ca5e1cbaed0dc73
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/textures/player/remi.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/player/remi.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,27 +65,31 @@
     </option>
   </component>
   <component name="ProjectId" id="2IzgR8X4TZJxEBa5uv1cbFDD0F3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-<<<<<<< HEAD
-    "last_opened_file_path": "D:/A_Learning/java/TouHouStarryNight",
-=======
-    "last_opened_file_path": "D:/A_Learning/java/TouHouStaryNight/src/main/resources/assets.textures",
->>>>>>> 4008043f247d32789fe520ba4ca5e1cbaed0dc73
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/A_Learning/java/TouHouStarryNight&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="game" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\A_Learning\java\TouHouStaryNight\src\main\resources\assets.textures" />
     </key>
@@ -104,14 +99,10 @@
       <recent name="D:\A_Learning\java\TouHouStaryNight\src\main\resources\assets.textures\boss" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.StgGameApp">
+  <component name="RunManager" selected="应用程序.game.StgGameApp">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-<<<<<<< HEAD
       <module name="TouHouStarryNight" />
-=======
-      <module name="TouHouStaryNight" />
->>>>>>> 4008043f247d32789fe520ba4ca5e1cbaed0dc73
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -122,16 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StgGameApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="game.StgGameApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="game.StgGameApp" />
-<<<<<<< HEAD
       <module name="TouHouStarryNight" />
-=======
-      <module name="TouHouStaryNight" />
->>>>>>> 4008043f247d32789fe520ba4ca5e1cbaed0dc73
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="game.*" />
+          <option name="PATTERN" value="game.componets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,7 +128,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.StgGameApp" />
+        <item itemvalue="应用程序.game.StgGameApp" />
         <item itemvalue="应用程序.Main" />
       </list>
     </recent_temporary>
@@ -167,5 +154,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

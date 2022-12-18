@@ -8,7 +8,7 @@ import com.almasb.fxgl.entity.Spawns;
 import com.almasb.fxgl.ui.FXGLButton;
 
 public class CreatePrefabs implements EntityFactory {
-    @Spawns("bg1")
+    @Spawns("bg0")
     public Entity bgFront(SpawnData data){
         return FXGL.entityBuilder(data).view("bg/backgorund3.png").build();
     }
