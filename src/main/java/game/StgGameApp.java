@@ -2,34 +2,24 @@ package game;
 import com.almasb.fxgl.app.GameSettings;
 import com.almasb.fxgl.app.GameApplication;
 import com.almasb.fxgl.dsl.FXGL;
-<<<<<<< HEAD
 import com.almasb.fxgl.entity.Entity;
+import com.almasb.fxgl.input.UserAction;
 import javafx.scene.input.KeyCode;
-import javafx.scene.paint.Color;
-import javafx.scene.shape.Rectangle;
-=======
->>>>>>> 4008043f247d32789fe520ba4ca5e1cbaed0dc73
 
 import java.util.Map;
 
 public class StgGameApp extends GameApplication {
-<<<<<<< HEAD
     private Entity player;
     public double speed;
-    public static void main(String[] args) {
-        launch(args);
-    }
     public double getSpeed(){
         return speed;
     }
     public void setSpeed(double x){
         speed = x;
     }
-=======
     public static void main(String[] args) {
         launch(args);
     }
->>>>>>> 4008043f247d32789fe520ba4ca5e1cbaed0dc73
     /*界面基础设置*/
     @Override
     protected void initSettings(GameSettings gameSettings) {
@@ -44,15 +34,7 @@ public class StgGameApp extends GameApplication {
     /*设置输入控制*/
     @Override
     protected void initInput() {
-<<<<<<< HEAD
         setSpeed(5);
-        FXGL.onKey(KeyCode.RIGHT, () -> {
-            player.translateX(getSpeed()); // move right speed pixels
-        });
-
-        FXGL.onKey(KeyCode.LEFT, () -> {
-            player.translateX(-getSpeed()); // move left speed pixels
-        });
 
         FXGL.onKey(KeyCode.UP, () -> {
             player.translateY(-getSpeed()); // move up speed pixels
@@ -62,8 +44,20 @@ public class StgGameApp extends GameApplication {
             player.translateY(getSpeed()); // move down speed pixels
         });
 
-=======
->>>>>>> 4008043f247d32789fe520ba4ca5e1cbaed0dc73
+        FXGL.getInput().addAction(new UserAction("Right") {
+            @Override
+            protected void onAction() {
+                player.getComponent(PlayerAnimationComponent.class).moveRight();
+            }
+        }, KeyCode.RIGHT);
+
+        FXGL.getInput().addAction(new UserAction("Left") {
+            @Override
+            protected void onAction() {
+                player.getComponent(PlayerAnimationComponent.class).moveLeft();
+            }
+        }, KeyCode.LEFT);
+
     }
 
     /*预处理*/
@@ -81,13 +75,12 @@ public class StgGameApp extends GameApplication {
     protected void initGame() {
         FXGL.getGameWorld().addEntityFactory(new CreatePrefabs());
         FXGL.spawn("bg1");
-<<<<<<< HEAD
         player = FXGL.entityBuilder()
                 .at(350, 700)
-                .view(new Rectangle(25, 25, Color.YELLOW))
+                //.view(new Rectangle(25, 25, Color.YELLOW))
+                //.view("sakuya&remi.png")
+                .with(new PlayerAnimationComponent())
                 .buildAndAttach();
-=======
->>>>>>> 4008043f247d32789fe520ba4ca5e1cbaed0dc73
     }
 
     /*设置物理引擎*/
@@ -98,10 +91,6 @@ public class StgGameApp extends GameApplication {
     /*设置UI组件*/
     @Override
     protected void initUI() {
-<<<<<<< HEAD
-
-=======
->>>>>>> 4008043f247d32789fe520ba4ca5e1cbaed0dc73
     }
 
     /*update每帧调用，未找到机械帧控件*/
