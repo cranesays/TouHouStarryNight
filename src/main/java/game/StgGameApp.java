@@ -21,6 +21,9 @@ import javafx.scene.shape.Circle;
 import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Text;
 import javafx.util.Duration;
+import com.almasb.fxgl.entity.Entity;
+import com.almasb.fxgl.input.UserAction;
+import javafx.scene.input.KeyCode;
 
 import java.util.Map;
 
@@ -72,14 +75,32 @@ public class StgGameApp extends GameApplication {
             player.translateY(getSpeed()-1); // move down speed pixels
         });
 
+/*
         FXGL.onKey(KeyCode.RIGHT, () -> {
             player.getComponent(PlayerAnimationComponent.class).moveRight();
         });
+*/
+        FXGL.getInput().addAction(new UserAction("Right") {
+            @Override
+            protected void onAction() {
+                player.getComponent(PlayerAnimationComponent.class).moveRight();
+            }
+        }, KeyCode.RIGHT);
+
+        FXGL.getInput().addAction(new UserAction("Left") {
+            @Override
+            protected void onAction() {
+                player.getComponent(PlayerAnimationComponent.class).moveLeft();
+            }
+        }, KeyCode.LEFT);
+
+
+/*
 
         FXGL.onKey(KeyCode.LEFT, () -> {
             player.getComponent(PlayerAnimationComponent.class).moveLeft();
         });
-
+*/
         /*FXGL.getInput().addAction(new UserAction("Left") {
             @Override
             protected void onAction() {
@@ -138,6 +159,7 @@ public class StgGameApp extends GameApplication {
         FXGL.getGameWorld().addEntityFactory(new BackGround());//实体工厂，背景
         FXGL.spawn("bg1");//添加背景
         reference = FXGL.spawn("reference");//添加背景参照物
+
         player = FXGL.entityBuilder()
                 .type(GameType.PLAYER)
                 .at(350, 700)

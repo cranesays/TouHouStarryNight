@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93ef2c5f-960b-4541-84c0-5a20d473ea21" name="变更" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/logs/FXGL-23-12月-2022-08.30.27.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/logs/FXGL-23-12月-2022-08.31.24.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/logs/FXGL-23-12月-2022-08.32.44.log" afterDir="false" />
@@ -37,6 +38,17 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/game/Prefabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/Prefabs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/game/StgGameApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/StgGameApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/textures/player/remi.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/player/remi.png" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-18-12月-2022-20.25.34.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-18-12月-2022-20.46.26.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/game/PlayerAnimationComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/player/remi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/StgGameApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/StgGameApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/textures/player/remi&amp;sakuya.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/player/sakuya&amp;remi.png" afterDir="false" />
+>>>>>>> 14ca803df67a488b816a414fe563fe9b0a025539
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +84,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
@@ -84,6 +97,19 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/A_Learning/java/TouHouStarryNight",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings"
+>>>>>>> 14ca803df67a488b816a414fe563fe9b0a025539
   }
 }</component>
   <component name="RecentsManager">
